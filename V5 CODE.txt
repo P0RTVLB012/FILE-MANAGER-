@@ -5,10 +5,10 @@ import hashlib
 
 # Define the password
 PASSWORD = "2571"
-USERS = {"admin": hashlib.sha256("admin_pass".encode()).hexdigest()}
+USERS = {"username": hashlib.sha256("password".encode()).hexdigest()}
 
 # Define the document folder (absolute path)
-DOCUMENT_FOLDER = r"C:\Users\Deforest Bennett\OneDrive\file_manager_v5"
+DOCUMENT_FOLDER = r"C:\path\to\your\stuff\"
 
 # Create a list of documents (for demonstration purposes)
 documents = {
