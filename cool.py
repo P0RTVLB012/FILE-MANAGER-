@@ -1,7 +1,3 @@
-from dearpygui.core import *
-from dearpygui.simple import *
+THIS FILE IS AN ACCIDENTAL ADD
+PLEASE DONT MIND IT
 
-with window("Example Window"):
-    add_text("Hello, Dear PyGui!")
-
-start_dearpygui()
